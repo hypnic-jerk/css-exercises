@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +11,22 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  width: 200px;
+  /* it says max-width in the solution though,
+  i assume it's so that the boxes don't grow beyond
+  that point on wider screens? */
+  display: flex auto;
+  flex-flow: column wrap;
 }
 
 /* do not edit this footer */
